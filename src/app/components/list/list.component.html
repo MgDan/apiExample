@@ -1,0 +1,18 @@
+
+<div class="container">
+  <mat-card class="example-card container" *ngFor="let card of list">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{card.pokemon.name}}</mat-card-title>
+      <!--<mat-card-subtitle>Dog Breed</mat-card-subtitle>-->
+    </mat-card-header>
+    <a routerLink="/search">
+      <img mat-card-image src="" alt="Photo of a Shiba Inu">
+    </a>
+    <mat-card-content>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum laudantium possimus ullam, expedita rem reiciendis sunt minus dicta, accusantium suscipit aut a odio eveniet nihil voluptate doloremque facilis fugit vel?
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>

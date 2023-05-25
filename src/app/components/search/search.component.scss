@@ -1,0 +1,12 @@
+.head{
+  width: 100%;
+  background: linear-gradient(white, red);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 10vh;
+  mat-form-field {
+    width: 80%;
+  }
+
+}
